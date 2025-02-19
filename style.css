@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #6C169B; /* Solid background */
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 60%;
+    margin-top: -250px; /* Keeps everything in place */
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px; /* Reduced space below */
+    text-align: left;
+    color: #E9B782; /* Gold color for better contrast */
+}
+
+.description {
+    font-size: 1.2rem;
+    max-width: 600px;
+    text-align: left;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px; /* Space between buttons */
+    margin-top: 30px;
+}
+
+.btn {
+    color: white;
+    font-weight: bold;
+    padding: 20px 40px;
+    background: none;
+    border-radius: 10px;
+    border: 2px solid #E9B782;
+    transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: #E9B782;
+    color: #6C169B; 
+}
+
+/* Unique styling for portfolio button */
+.portfolio-btn {
+    color: white;
+    font-weight: bold;
+    padding: 20px 40px;
+    background: none;
+    border: 2px solid #E9B782;
+    transition: 0.3s ease-in-out;
+}
+
+.portfolio-btn:hover {
+    background: #E9B782;
+    color: #6C169B;
+}
